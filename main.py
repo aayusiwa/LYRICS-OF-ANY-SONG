@@ -8,7 +8,7 @@ from details import ENGINE_ID
 def get_lyrics(): 
     global result
     global s
-    extract_lyrics = SongLyrics(API,ENGINE_ID) 
+    extract_lyrics = SongLyrics(GCS_API_KEY,GCS_ENGINE_ID) 
     s=e.get()
     temp = extract_lyrics.get_lyrics(str(s)) 
     result = temp['lyrics']
