@@ -1,2 +1,2 @@
-API=''
-ENGINE_ID=''
+GCS_API_KEY=''
+GCS_ENGINE_ID=''
