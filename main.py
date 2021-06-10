@@ -2,8 +2,8 @@
 from tkinter import *
 from lyrics_extractor import SongLyrics 
 import os
-from details import API
-from details import ENGINE_ID
+from details import GCS_API_KEY
+from details import GCS_ENGINE_ID
 # user defined funtion 
 def get_lyrics(): 
     global result
